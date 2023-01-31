@@ -34,7 +34,7 @@ h1 {
     display: flex;
     width: 15px;
     height: 15px;
-    background: hsl(218, 17%, 22%);
+    background: hsl(218, 20%, 22%);
     align-content: center;
     justify-content: center;
     padding: 15px;
@@ -55,16 +55,17 @@ h1 {
 }
 
 ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 li {
     display: flex;
     width: 15px;
     height: 15px;
-    background: hsl(218, 17%, 22%);
+    background: hsl(218, 20%, 22%);
     justify-content: center;
     color: hsl(216, 12%, 54%);
     padding: 15px;
